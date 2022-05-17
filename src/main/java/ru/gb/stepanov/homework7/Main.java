@@ -5,11 +5,11 @@ import static java.lang.System.*;
 public class Main {
     public static void main(String[] args) {
         Cat[] cats = {new Cat("Барсик", 50),
-                new Cat("Мурзик", 50),
-                new Cat("Кнопа", 25),
-                new Cat("Мурка", 5),
-                new Cat("Матроскин", 1)};
-        Plate plate = new Plate( 80);
+                new Cat("Мурзик", 30),
+                new Cat("Кнопа", 16),
+                new Cat("Мурка", 20),
+                new Cat("Матроскин", 12)};
+        Plate plate = new Plate( 100);
         for (Cat cat : cats) {
             cat.eat(plate);
             cat.info();
